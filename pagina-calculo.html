@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./CSS/stylePagCalculo.css">
+    <link rel="shortcut icon" href="./IMG/calculator.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark" id="navbar">
+        <img src="./IMG/calculator.png" width="70px" />
+        <a class="navbar-brand" href="index.html"> CÁLCULO DE MÉDIAS</a>
+    </nav>
+ <div class="jumbotron" id="container-image">
+        <h1 class="display-4" id="lead">Olá, Pessoal!</h1>
+        <div class="lead">Aqui vocês poderão verificar a média final do semestre...
+            <hr class="my-4">
+            <!-- <p>Vamos lá? </p> -->
+            
+            <div class="ContainerOne" id="titulo">
+             
+            <p class="notas" id="notasI">
+                <span id="countCountries" aria-placeholder="">Digite Nota da N1 A1-A:
+                    <input id="notaN1A" type="number" /> </span>
+            </p>
+            <p class="notas">
+                <span id="countCountries" aria-placeholder="">Digite Nota da N1 A1-B:
+                    <input id="notaN1B" type="number" /></span>
+            </p>
+            </div>
+
+            <div class="containerTwo" id="titulo">
+               
+                <p class="notas" id="notasI">
+                    <span id="countCountries" aria-placeholder="">Digite Nota da N2 A2:
+                        <input id="notaN2A" type="number" /> </span>
+                </p>
+                <p class="notas">
+                    <span id="countCountries" aria-placeholder="">Digite Nota da APS:
+                        <input id="notaN2B" type="number" /></span>
+                </p>
+            </div>
+
+            <p class="button">
+                <a class="btn btn-success btn-lg" onclick="mediaFinal()" href="#" role="button">Calcular média</a>
+            </p>
+
+    </div>
+</div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
